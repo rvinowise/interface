@@ -1,0 +1,97 @@
+
+
+default partial alphanumeric_keys
+xkb_symbols "rapidum" {
+
+    //include "lat(vulgare)"
+    //include "us(basic)"
+    include "latin"
+    
+    name[Group1]= "Latina rapidum (Roma)";
+
+    key <TLDE> { [	dead_grave,	dead_tilde,	grave,	asciitilde	]};
+    key <AE01> { [	imacron,	1,	exclam,	onesuperior	]};
+    key <AE02> { [	amacron,	2,	at,	twosuperior	]};
+    key <AE03> { [	emacron,	3,	numbersign,	threesuperior	]};
+    key <AE04> { [	amacron,	4,	dollar,	sterling	]};
+    key <AE05> { [	percent,	5,	EuroSign,	dead_cedilla	]};
+    key <AE06> { [	asciicircum,	6,	onequarter,	dead_circumflex	]};
+    key <AE07> { [	ampersand,	7,	onehalf,	dead_horn	]};
+    key <AE08> { [	asterisk,	8,	threequarters,	dead_ogonek	]};
+    key <AE09> { [	umacron,	9,	parenleft,	leftsinglequotemark	]};
+    key <AE10> { [	omacron,	0,	parenright,	rightsinglequotemark	]};
+    key <AE11> { [	minus,	underscore,	yen,	dead_belowdot	]};
+    key <AE12> { [	equal,	plus,	multiply,	division	]};
+    
+    key <AD11> {[	bracketleft,	braceleft,	parenleft]};
+    key <AD12> {[	bracketright,	braceright,	parenright]};
+
+    include "level3(ralt_switch)"
+};
+
+
+partial alphanumeric_keys
+xkb_symbols "vulgare" {
+
+    name[Group1]= "Latina  (Numeri arabici)";
+
+    key <TLDE> {[	grave,	asciitilde	]};
+    key <AE01> {[	1,	exclam	]};
+    key <AE02> {[	2,	at		]};
+    key <AE03> {[	3,	numbersign	]};
+    key <AE04> {[	4,	dollar		]};
+    key <AE05> {[	5,	percent		]};
+    key <AE06> {[	6,	asciicircum	]};
+    key <AE07> {[	7,	ampersand	]};
+    key <AE08> {[	8,	asterisk	]};
+    key <AE09> {[	9,	parenleft	]};
+    key <AE10> {[	0,	parenright	]};
+    key <AE11> {[	minus,	underscore	]};
+    key <AE12> {[	equal,	plus		]};
+    
+    key <AD01> {[	q,	Q,	Q	]};
+    key <AD02> {[	dead_macron,	dead_caron,	w,	W]}; // keyboard specific (W=diacriticos)
+    key <AD03> {[	e,	emacron,	E,	Emacron	]};
+    key <AD04> {[	r,	R,	R	]};
+    key <AD05> {[	t,	T,	T	]};
+    key <AD06> {[	y,	Y,	Y	]};
+    key <AD07> {[	u,	umacron,	U,	Umacron	]};
+    key <AD08> {[	i,	imacron,	I,	Imacron	]};
+    key <AD09> {[	o,	omacron,	O,	Omacron	]};
+    key <AD10> {[	p,	P,	P	]};
+    key <AD11> {[	bracketleft,	braceleft	]};
+    key <AD12> {[	bracketright,	braceright	]};
+    
+    key <AC01> {[	a,	amacron,	A,	Amacron	]};
+    key <AC02> {[	s,	S,	S	]};
+    key <AC03> {[	d,	D,	D	]};
+    key <AC04> {[	f,	F,	F	]};
+    key <AC05> {[	g,	G,	G	]};
+    key <AC06> {[	h,	H,	H	]};
+    key <AC07> {[	j,	J,	J	]};
+    key <AC08> {[	k,	K,	K	]};
+    key <AC09> {[	l,	L,	L	]};
+    key <AC10> {[	semicolon,	colon		]};
+    key <AC11> {[	apostrophe,	quotedbl	]};
+    
+    key <AB01> {[	z,	Z, 	Z	]};
+    key <AB02> {[	x,	X,	X	]};
+    key <AB03> {[	c,	C,	C	]};
+    key <AB04> {[	v,	V,	V	]};
+    key <AB05> {[	b,	B,	B	]};
+    key <AB06> {[	n,	N,	N	]};
+    key <AB07> {[	m,	M,	M	]};
+    key <AB08> {[	comma,	less		]};
+    key <AB09> {[	period,	greater		]};
+    key <AB10> {[	slash,	question	]};
+
+    key <BKSL> {[	backslash,         bar	]};
+    
+    key <SPCE> {[	space,	space,	space,	space]};
+    
+    include "level3(ralt_switch)"
+};
+
+
+
+

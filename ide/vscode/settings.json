@@ -1,0 +1,176 @@
+{
+    "workbench.colorTheme": "Default Light+",
+    "editor.fontSize": 16,
+    "editor.lineHeight": 18,
+    //"editor.fontFamily": "Source Code Pro Semibold",
+    "editor.fontFamily": "Fira Code Medium",
+    "editor.fontLigatures": true,
+    "editor.cursorBlinking": "solid",
+    "editor.hover.enabled": false,
+    "editor.tokenColorCustomizations": {
+        "[Default Light+]": {
+            "comments": "#aaaaaa",
+            "strings": "#aaaaaa",
+            "functions": "#000000",
+            "keywords": "#000000",
+            "numbers": "#000000",
+            "types": "#000000",
+            "variables": "#000000",
+            "textMateRules": [
+                {
+                    "scope":"keyword.other",
+                    "settings": {
+                        "foreground": "#000000",
+                    }
+                },
+                {
+                    "scope":"keyword.other.using",
+                    "settings": {
+                        "foreground": "#000000",
+                    }
+                },
+                {
+                    "scope":"keyword.type",
+                    "settings": {
+                        "foreground": "#000000",
+                    }
+                },
+                {
+                    "scope":"keyword.preprocessor",
+                    "settings": {
+                        "foreground": "#aaaaaa",
+                    }
+                },
+                {
+                    "scope":"meta.preprocessor",
+                    "settings": {
+                        "foreground": "#aaaaaa",
+                    }
+                },
+
+                {
+                    "scope":"storage.modifier",
+                    "settings": {
+                        "foreground": "#000000",
+                    }
+                },
+                {
+                    "scope":"storage.type.cs",
+                    "settings": {
+                        "foreground": "#000000",
+                    }
+                },
+
+                {
+                    "scope":"constant.language",
+                    "settings": {
+                        "foreground": "#000000",
+                    }
+                },
+
+                {
+                    "scope":"entity.name.function",
+                    "settings": {
+                        "foreground": "#000000",
+                        "fontStyle": "bold"
+                    }
+                }
+
+            ]
+        }
+    },
+
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "window.zoomLevel": 0,
+    "numberedBookmarks.navigateThroughAllFiles": "replace",
+    "numberedBookmarks.saveBookmarksInProject": true,
+    "gitlens.codeLens.enabled": false,
+    "gitlens.currentLine.enabled": false,
+    "gitlens.menus": {
+        "editor": {
+            "blame": false,
+            "clipboard": true,
+            "compare": true,
+            "details": false,
+            "history": false,
+            "remote": false
+        },
+        "editorGroup": false,
+        "editorTab": {
+            "clipboard": true,
+            "compare": true,
+            "history": true,
+            "remote": true
+        },
+        "explorer": {
+            "clipboard": true,
+            "compare": true,
+            "history": true,
+            "remote": true
+        },
+        "scmGroup": {
+            "compare": true,
+            "openClose": true,
+            "stash": true,
+            "stashInline": true
+        },
+        "scmItem": {
+            "clipboard": true,
+            "compare": true,
+            "history": true,
+            "remote": true,
+            "stash": true
+        }
+    },
+    "workbench.colorCustomizations": {
+
+
+        "activityBar.background": "#ffffff",
+        "activityBar.foreground": "#000000",
+        "sideBar.background":"#ffffff",
+        "sideBar.foreground": "#000000",
+        "sideBarTitle.foreground": "#000000",
+
+        "editorGroup.border":"#000000",
+        "editorGroupHeader.tabsBackground":"#ffffff",
+        //"editorGroupHeader.tabsBorder":"#000000",
+        "editorGroupHeader.border":"#000000",
+        "tab.activeBackground":"#ffffff",
+        "tab.activeForeground":"#000000",
+        "tab.inactiveForeground":"#000000",
+
+        "editor.background":"#ffffff",
+        "editor.foreground":"#000000",
+        
+        "editorLineNumber.foreground":"#aaaaaa",
+        "editorLineNumber.activeForeground":"#ff0000",
+
+        //"editor.selectionHighlightBackground":"#ff0000",
+        "editor.wordHighlightBackground":"#ffc18866",
+        "editor.wordHighlightStrongBackground":"#ff0000",
+        "editor.wordHighlightStrongBorder":"#ff0000",
+
+        "editor.findMatchBackground":"#ffc18899",
+        "editor.findMatchHighlightBackground":"#ffc18899",
+
+        "editorBracketMatch.background":"#ffc18899",
+        "editorBracketMatch.border":"#ff000000",
+
+        "editor.selectionBackground":"#aaaaaaaa",
+        "editor.inactiveSelectionBackground":"#aaaaaaaa",
+        "editor.selectionHighlightBackground":"#aaaaaaaa",
+
+        "statusBar.background":"#ffffff",
+        "statusBar.foreground":"#000000",
+
+        //"editorUnnecessaryCode.border": "#dd7aab",
+    },
+    "terminal.integrated.localEchoStyle": null,
+    "typescript.locale": "en",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.semanticTokenColorCustomizations": null,
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
+    "terminal.integrated.windowsEnableConpty": false,
+    
+}

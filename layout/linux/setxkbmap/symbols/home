@@ -1,0 +1,40 @@
+default partial 
+xkb_symbols "basic" {
+
+    key <CAPS> {[underscore, underscore]};
+
+    key <KP7>  { [	KP_Home,		KP_7,	
+			dead_horn,		dead_horn	] };
+    key <KP8>  { [	KP_Up,			KP_8,
+			dead_ogonek,		dead_ogonek	] };
+    key <KP9>  { [	KP_Prior,		KP_9,
+			leftsinglequotemark,	dead_breve	] };
+    key <KPMU> { [ 	KP_Multiply,		KP_Multiply,
+			rightsinglequotemark,	dead_abovering	] };
+
+    key <KP4>  { [	KP_Prior,		KP_Prior,
+			uacute,			Uacute		] };
+    key <KP5>  { [	KP_Next,		KP_Next,
+			iacute,			Iacute		] };
+    key <KP6>  { [	KP_Right,		KP_6,
+			oacute,			Oacute		] };
+    key <KPSU> { [	KP_Subtract,		KP_Subtract,
+			odiaeresis,		Odiaeresis	] };
+
+    key <KP1>  { [	KP_Home,		KP_Home,
+			idiaeresis,		Idiaeresis	] };
+    key <KP2>  { [	KP_End,			KP_End,
+			oe,			OE		] };
+    key <KP3>  { [	KP_Next,		KP_3,
+			oslash,			Ooblique	] };
+    key <KPAD> { [ 	KP_Add,     		KP_Add,
+			paragraph,		degree          ] };
+
+    key <KP0>  { [	KP_Delete,		KP_0,
+			mu,			mu	] };
+    key <KPDL> { [	KP_Insert,		KP_Decimal,
+			dead_abovedot,		dead_caron	] };
+			
+    key <DELE> { [Print] };
+
+};

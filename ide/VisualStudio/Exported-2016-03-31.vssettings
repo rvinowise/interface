@@ -1,0 +1,65 @@
+<UserSettings>
+	<ApplicationIdentity version="10.0"/>
+	<ToolsOptions>
+		<ToolsOptionsCategory name="Environment" RegisteredName="Environment"/>
+	</ToolsOptions>
+	<Category name="Database Tools" RegisteredName="Database Tools"/>
+	<Category name="Environment_Group" RegisteredName="Environment_Group">
+		<Category name="Environment_KeyBindings" Category="{F09035F1-80D2-4312-8EC4-4D354A4BCB4C}" Package="{DA9FB551-C724-11d0-AE1F-00A0C90FFFC3}" RegisteredName="Environment_KeyBindings" PackageName="Visual Studio Environment Package">
+			<Version>10.0.0.0</Version>
+			<KeyboardShortcuts>
+				<ScopeDefinitions>
+					<Scope Name="Редактор диалоговых окон VC" ID="{543E0C02-8C85-4E43-933A-5EF320E3431F}"/>
+					<Scope Name="Схема классов UML" ID="{FE170F05-DE3A-4067-A3ED-08AE56B31DB3}"/>
+					<Scope Name="Генератор данных" ID="{D3936010-2B3A-4B8E-82D1-F4DCE3B5F898}"/>
+					<Scope Name="Схема компонентов UML" ID="{13C19B18-BD05-42F3-9D3A-2A55E6E9169F}"/>
+					<Scope Name="Редактор (текстовый) XML" ID="{FA3CD31E-987B-443A-9B81-186104E8DAC1}"/>
+					<Scope Name="Текстовый редактор" ID="{8B382828-6202-11D1-8870-0000F87579D2}"/>
+					<Scope Name="Представление результатов рабочего элемента" ID="{7026002D-01F6-44E7-95CF-A896C00DA3F8}"/>
+					<Scope Name="Конструктор моделей EDM ADO.NET" ID="{C99AEA30-8E36-4515-B76F-496F5A48A6AA}"/>
+					<Scope Name="Конструктор запросов" ID="{B2C40B32-3A37-4CA9-97B9-FA44248B69FF}"/>
+					<Scope Name="Веб-обозреватель" ID="{E8B06F41-6D01-11D2-AA7D-00C04F990343}"/>
+					<Scope Name="Редактор наборов данных" ID="{B334A759-F450-40A5-BE2A-65937BCD5415}"/>
+					<Scope Name="Редактор документов диаграмм" ID="{295A0962-5A59-4F4F-9E12-6BC670C15C3B}"/>
+					<Scope Name="F# Interactive" ID="{DEE22B65-9761-4A26-8FB2-759B971D6DFC}"/>
+					<Scope Name="Конструктор представлений" ID="{B968E165-98E0-41F0-8FBE-A8ED1D246A90}"/>
+					<Scope Name="Везде" ID="{5EFC7975-14BC-11CF-9B2B-00AA00573819}"/>
+					<Scope Name="Схема классов" ID="{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}"/>
+					<Scope Name="Схема активности UML" ID="{950C3878-B510-4BC5-9051-42798A870364}"/>
+					<Scope Name="Схема вариантов использования UML" ID="{FCFECC7C-3151-4B48-A85A-909F50500A70}"/>
+					<Scope Name="Представление запроса рабочего элемента" ID="{B6303490-B828-410C-9216-AE727D0E282D}"/>
+					<Scope Name="Редактор сведений Team Foundation Build" ID="{86306A97-84F2-4F5A-889B-1318501AEB5F}"/>
+					<Scope Name="Редактор исходного текста CSS" ID="{A764E89A-518D-11D2-9A89-00C04F79EFC3}"/>
+					<Scope Name="Конструктор баз данных" ID="{CFF78A9B-78A3-45A3-9142-0267AFC261FA}"/>
+					<Scope Name="Редактор рабочих элементов" ID="{40A91D9D-8076-4D28-87C5-5AF9F0ACFE0F}"/>
+					<Scope Name="Схема последовательностей" ID="{5028BC9F-844B-4C51-A624-0005945D14AE}"/>
+					<Scope Name="Редактор строк VC" ID="{58442DA9-10DA-4AA9-A2AF-96E4D481379B}"/>
+					<Scope Name="Конструктор параметров" ID="{515231AD-C9DC-4AA3-808F-E1B65E72081C}"/>
+					<Scope Name="VisualStudio" ID="{B465B5AD-8799-4507-B90A-EE29ACF36AF9}"/>
+					<Scope Name="Конструктор Windows Forms" ID="{BA09E2AF-9DF2-4068-B2F0-4C7E5CC19E2F}"/>
+					<Scope Name="Редактор сочетаний клавиш VC" ID="{EB56D0B5-BEE7-4D0C-8BE6-88A8ED256695}"/>
+					<Scope Name="Конструктор отчета" ID="{CB3675B8-701E-4F56-9167-2714E167FF3F}"/>
+					<Scope Name="Конструктор рабочих процессов" ID="{D4D9FCBC-B26A-4C41-AB9F-11FD2466829A}"/>
+					<Scope Name="Сравнение схем" ID="{CE05A4C2-97F8-465F-9871-8AD72AAE6F20}"/>
+					<Scope Name="Редактор управляемых ресурсов" ID="{FEA4DCC9-3645-44CD-92E7-84B55A16465C}"/>
+					<Scope Name="Конструктор таблиц" ID="{4194FEE5-6777-419F-A5FC-47A536DF1BDB}"/>
+					<Scope Name="Схема слоев" ID="{305563E9-FDF9-485B-B73E-D9FEDCC36F2E}"/>
+					<Scope Name="Представление разработки редактора HTML" ID="{CB3FCFEA-03DF-11D1-81D2-00A0C91BBEE3}"/>
+					<Scope Name="Представление исходного текста редактора HTML" ID="{CB3FCFEB-03DF-11D1-81D2-00A0C91BBEE3}"/>
+					<Scope Name="Редактор изображений VC" ID="{C0BA70ED-069E-412B-9C06-7442E28A11B9}"/>
+					<Scope Name="Конструктор схем XML" ID="{DEE6CEF9-3BCA-449A-82A6-FC757D6956FB}"/>
+					<Scope Name="Редактор запросов на языке Transact-SQL" ID="{C5B506FB-13BA-4381-3A48-41275C4CA2B5}"/>
+				</ScopeDefinitions>
+				<DefaultShortcuts/>
+				<ShortcutsScheme/>
+				<UserShortcuts>
+					<RemoveShortcut Command="Edit.GoToDefinition" Scope="Везде">F12</RemoveShortcut>
+					<Shortcut Command="ArchitectureDesigner.Component.ConvertTo.RequiredInterface" Scope="Везде">F12</Shortcut>
+					<RemoveShortcut Command="File.Rename" Scope="Везде">F2</RemoveShortcut>
+					<RemoveShortcut Command="ArchitectureDesigner.Component.ConvertTo.RequiredInterface" Scope="Везде">F2</RemoveShortcut>
+					<Shortcut Command="Edit.GoToDefinition" Scope="Везде">F2</Shortcut>
+				</UserShortcuts>
+			</KeyboardShortcuts>
+		</Category>
+	</Category>
+</UserSettings>

@@ -1,0 +1,336 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    {
+        "key": "ctrl+alt+i",
+        "command": "editor.action.inspectTMScopes"
+    },
+    {
+        "key": "ctrl+s",
+        "command": "workbench.action.files.saveAll"
+    },
+    {
+        "key": "ctrl+k s",
+        "command": "-workbench.action.files.saveAll"
+    },
+    {
+        "key": "ctrl+alt+s",
+        "command": "workbench.action.files.save"
+    },
+    {
+        "key": "ctrl+s",
+        "command": "-workbench.action.files.save"
+    },
+    {
+        "key": "alt+backspace",
+        "command": "workbench.action.navigateToLastEditLocation"
+    },
+    {
+        "key": "ctrl+k ctrl+q",
+        "command": "-workbench.action.navigateToLastEditLocation"
+    },
+    {
+        "key": "ctrl+insert d",
+        "command": "explorer.newFolder"
+    },
+    {
+        "key": "ctrl+insert f",
+        "command": "explorer.newFile"
+    },
+    {
+        "key": "ctrl+d",
+        "command": "editor.action.revealDefinition",
+        "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+    },
+    {
+        "key": "f12",
+        "command": "-editor.action.revealDefinition",
+        "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+    },
+    {
+        "key": "f2",
+        "command": "editor.action.rename",
+        "when": "editorHasRenameProvider && editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "f2",
+        "command": "-editor.action.rename",
+        "when": "editorHasRenameProvider && editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "f2",
+        "command": "renameFile",
+        "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
+    },
+    {
+        "key": "f2",
+        "command": "-renameFile",
+        "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
+    },
+    {
+        "key": "f2",
+        "command": "debug.renameWatchExpression",
+        "when": "watchExpressionsFocused"
+    },
+    {
+        "key": "f2",
+        "command": "-debug.renameWatchExpression",
+        "when": "watchExpressionsFocused"
+    },
+    {
+        "key": "ctrl+l",
+        "command": "bookmarks.jumpToNext",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+l",
+        "command": "-bookmarks.jumpToNext",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+j",
+        "command": "-bookmarks.jumpToPrevious",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+k",
+        "command": "-bookmarks.toggle",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+f11",
+        "command": "bookmarks.listFromAllFiles"
+    },
+    {
+        "key": "ctrl+shift+`",
+        "command": "bookmarks.clearFromAllFiles"
+    },
+    {
+        "key": "alt+`",
+        "command": "numberedBookmarks.clearFromAllFiles"
+    },
+    {
+        "key": "shift+f11",
+        "command": "numberedBookmarks.listFromAllFiles"
+    },
+    {
+        "key": "ctrl+alt+s",
+        "command": "workbench.action.openGlobalKeybindings"
+    },
+    {
+        "key": "ctrl+k ctrl+s",
+        "command": "-workbench.action.openGlobalKeybindings"
+    },
+    {
+        "key": "ctrl+r",
+        "command": "references-view.findReferences",
+        "when": "editorHasReferenceProvider"
+    },
+    {
+        "key": "shift+alt+f12",
+        "command": "-references-view.findReferences",
+        "when": "editorHasReferenceProvider"
+    },
+    {
+        "key": "alt+w alt+a",
+        "command": "workbench.action.closeOtherEditors"
+    },
+    {
+        "key": "alt+w alt+left",
+        "command": "workbench.action.closeEditorsToTheLeft"
+    },
+    {
+        "key": "alt+w alt+right",
+        "command": "workbench.action.closeEditorsToTheRight"
+    },
+    {
+        "key": "ctrl+alt+w",
+        "command": "workbench.action.closePanel"
+    },
+    {
+        "key": "ctrl+e ctrl+m",
+        "command": "workbench.action.minimizeOtherEditors"
+    },
+    {
+        "key": "ctrl+e m",
+        "command": "workbench.action.maximizeEditor"
+    },
+    {
+        "key": "ctrl+e ctrl+2",
+        "command": "workbench.action.focusLastEditorGroup"
+    },
+    {
+        "key": "ctrl+e ctrl+1",
+        "command": "workbench.action.focusFirstEditorGroup"
+    },
+    {
+        "key": "ctrl+1",
+        "command": "-workbench.action.focusFirstEditorGroup"
+    },
+    {
+        "key": "ctrl+e ctrl+left",
+        "command": "workbench.action.focusLeftGroup"
+    },
+    {
+        "key": "ctrl+k ctrl+left",
+        "command": "-workbench.action.focusLeftGroup"
+    },
+    {
+        "key": "ctrl+e ctrl+right",
+        "command": "workbench.action.focusRightGroup"
+    },
+    {
+        "key": "ctrl+k ctrl+right",
+        "command": "-workbench.action.focusRightGroup"
+    },
+    {
+        "key": "ctrl+e ctrl+e",
+        "command": "workbench.action.toggleEditorGroupLayout"
+    },
+    {
+        "key": "shift+alt+0",
+        "command": "-workbench.action.toggleEditorGroupLayout"
+    },
+    {
+        "key": "ctrl+k ctrl+shift+w",
+        "command": "-workbench.action.closeAllGroups"
+    },
+    {
+        "key": "ctrl+e ctrl+w",
+        "command": "workbench.action.closeEditorsAndGroup"
+    },
+    {
+        "key": "ctrl+e ctrl+j",
+        "command": "workbench.action.joinAllGroups"
+    },
+    {
+        "key": "ctrl+shift+w",
+        "command": "workbench.action.toggleSidebarVisibility"
+    },
+    {
+        "key": "ctrl+b",
+        "command": "-workbench.action.toggleSidebarVisibility"
+    },
+    {
+        "key": "ctrl+shift+q",
+        "command": "editor.action.blockComment",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "shift+alt+a",
+        "command": "-editor.action.blockComment",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+q ctrl+a",
+        "command": "editor.foldAllBlockComments",
+        "when": "editorTextFocus && foldingEnabled"
+    },
+    {
+        "key": "ctrl+k ctrl+/",
+        "command": "-editor.foldAllBlockComments",
+        "when": "editorTextFocus && foldingEnabled"
+    },
+    {
+        "key": "alt+o alt+r",
+        "command": "o.restart"
+    },
+    {
+        "key": "alt+m",
+        "command": "workbench.action.toggleMaximizedPanel"
+    },
+    {
+        "key": "alt+d c",
+        "command": "workbench.panel.repl.view.focus"
+    },
+    {
+        "key": "alt+d s",
+        "command": "workbench.debug.action.focusCallStackView"
+    },
+    {
+        "key": "ctrl+r",
+        "command": "-workbench.action.openRecent"
+    },
+    {
+        "key": "ctrl+d",
+        "command": "-editor.action.addSelectionToNextFindMatch",
+        "when": "editorFocus"
+    },
+    {
+        "key": "alt+w alt+w",
+        "command": "workbench.action.keepEditor"
+    },
+    {
+        "key": "ctrl+k enter",
+        "command": "-workbench.action.keepEditor"
+    },
+    {
+        "key": "ctrl+e",
+        "command": "-workbench.action.quickOpen"
+    },
+    {
+        "key": "ctrl+e",
+        "command": "editor.debug.action.showDebugHover",
+        "when": "editorTextFocus && inDebugMode"
+    },
+    {
+        "key": "ctrl+k ctrl+i",
+        "command": "-editor.debug.action.showDebugHover",
+        "when": "editorTextFocus && inDebugMode"
+    },
+    {
+        "key": "ctrl+e",
+        "command": "editor.action.showHover",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+k ctrl+i",
+        "command": "-editor.action.showHover",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+1",
+        "command": "numberedBookmarks.toggleBookmark1",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+1",
+        "command": "-numberedBookmarks.toggleBookmark1",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+2",
+        "command": "numberedBookmarks.toggleBookmark2",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+2",
+        "command": "-numberedBookmarks.toggleBookmark2",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+3",
+        "command": "numberedBookmarks.toggleBookmark3",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+3",
+        "command": "-numberedBookmarks.toggleBookmark3",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+g ctrl+c",
+        "command": "git.commitAll"
+    },
+    {
+        "key": "ctrl+g ctrl+p",
+        "command": "git.push"
+    },
+    {
+        "key": "ctrl+shift+g c",
+        "command": "gitlens.views.openChanges"
+    },
+    {
+        "key": "ctrl+g c",
+        "command": "git.openChange"
+    }
+]
